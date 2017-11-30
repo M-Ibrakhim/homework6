@@ -1,0 +1,344 @@
+body {
+  background-image: url('../img/body-bg.png');
+  background-repeat: no-repeat;
+}
+.dropdown-menu {
+  height: 140px;
+  width: 800px;
+  margin: 20px auto 0;
+  position: relative;
+}
+.menu-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.menu-list > li {
+  position: relative;
+}
+.menu-list > li > a {
+  color: #fff;
+  text-decoration: none;
+}
+.drop-list {
+    position: absolute;
+    padding-top: 10px;
+    left: -30px;
+    line-height: 1.5;
+    visibility: hidden;
+}
+.drop-list > ul {
+    position: relative;
+    background-color: #F2F3F4;
+    list-style: none;
+    border-radius: 4%;
+}
+.drop-list > ul::before {
+    content: '';
+    position: absolute;
+    display: block;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #F2F3F4;
+    top: -10px;
+    left: 40px;
+}
+.drop-list > ul a {
+    display: block;
+    width: 100px;
+    height: 25px;
+    text-align: center;
+    color: #000000;
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+}
+.menu-list > li:hover .drop-list {
+    display: block;
+    visibility: visible;
+}
+.btn-list:hover {
+  color: #2874A6;
+}
+.shape {
+  width: 120px;
+  height: 120px;
+  font-family: 'Dorsa', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  line-height: 120px;
+  border-radius: 50%;
+  background: #fff;
+  font-size: 50px;
+  font-weight: 100;
+}
+.wrapper {
+  border: 1px solid #FDFEFE;
+  width: 800px;
+  height: auto;
+  margin: 70px auto;
+  padding: 10px;
+  background-color: #FDFEFE;
+  position: relative;
+}
+.first-column {
+  display: inline-block;
+  width: 500px;
+  margin: 10px;
+}
+h4 {
+  font-size: 14px;
+  font-family: 'Hind', sans-serif;
+  color: #34495E;
+}
+h2 {
+  font-size: 16px;
+  font-family: 'Hind', sans-serif;
+  letter-spacing: 1px;
+  color: #2874A6;
+}
+p {
+  font-family: 'Hind', sans-serif;
+  font-weight: 100;
+  color: #424949;
+  font-size: 13px;
+  line-height: 140%;
+}
+.img {
+  padding-top: 8px;
+  padding-right: 18px;
+  padding-bottom: 3px;
+  float: left;
+}
+.side {
+  float: right;
+  width: 220px;
+  margin-right: 10px;
+  margin-top: 20px;
+  height: auto;
+  position: relative;
+  list-style-type: none;
+  font-family: 'Hind', sans-serif;
+}
+ul {
+padding-left: 1px;
+}
+.one, .second, .three{
+  padding-left: 20px;
+  font-size: 15px;
+  color: #34495E;
+  display: inline-block;
+}
+.one:before, .second:before,
+.three:before {
+  content: '1';
+  color: white;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  border-radius: 50%;
+  position: absolute;
+  left: -20px;
+  top: 40px;
+  background: #5DADE2;
+}
+.second:before {
+  content: '2';
+  position: absolute;
+  top: 130px;
+}
+.three:before {
+  content: '3';
+  position: absolute;
+  top: 230px;
+}
+.p1, .p2, .p3 {
+  padding-top: 4px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  font-weight: 100;
+  color: #424949;
+  font-size: 13px;
+}
+.p3 {
+  padding-top: 4px;
+  padding-left: 20px;
+}
+.break {
+  border-radius: 1px;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  border-bottom-color: #D6E1E5;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.second-column {
+  display: inline-block;
+  width: 500px;
+  margin: 15px 10px;
+}
+.round::before {
+  content: url('../img/arrow.png');
+  padding-right: 5px;
+}
+li.round {
+  display: inline-block;
+  width: 200px;
+  height: 30px;
+  font-size: 13px;
+  font-family: 'Hind', sans-serif;
+  font-weight: 100;
+  color: #424949;
+}
+.second-side {
+  position: absolute;
+  width: 220px;
+  bottom: 30px;
+  right: 6px;
+  margin-right: 10px;
+  height: auto;
+}
+.qoute::before {
+  content: '\2033';
+}
+.qoute::after {
+  content: '\2036';
+}
+div.qoute {
+  font-family:'Hind', sans-serif;
+  font-weight: 100;
+  color: #424949;
+  font-size: 13px;
+  line-height: 140%;
+  padding-top: 10px;
+  padding-left: 8px;
+}
+.speech-bubble {
+	position: relative;
+  height: 130px;
+  background: #F2F3F4;
+  border-color: #F2F3F4;
+  border-style: solid;
+	border-radius: 4px;
+}
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #F2F3F4;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
+div.speaker {
+  font-family:'Hind', sans-serif;
+  text-align: center;
+  padding-top: 50px;
+  padding-right: 10px;
+  font-weight: bold;
+  color: #2874A6;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  background-color: #1A5276;
+  width: 822px;
+  left: -1px;
+  height: 120px;
+}
+.inside_column {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 500px;
+  margin: 200px;
+}
+.list {
+  list-style: none;
+}
+.section1 {
+  position: absolute;
+  width: 200px;
+  top: -10px;
+  left: 40px;
+  text-align: center;
+  line-height: 20px;
+  font-family:'Pathway Gothic One', sans-serif;
+}
+.ftr {
+  display: inline-block;
+  color: #D7DBDD;
+  font-size: 15px;
+  line-height: 20px;
+  margin-right: 10px;
+}
+.section2 {
+  position: absolute;
+  width: 150px;
+  top: -10px;
+  left: 240px;
+  text-align: left;
+  display: inline-block;
+  color: #D7DBDD;
+  font-size: 15px;
+  line-height: 20px;
+  font-family:'Pathway Gothic One', sans-serif;
+}
+.block {
+  position: relative;
+  margin: 0px 200px;
+}
+.social-media-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: auto;
+    margin: 150px auto;
+    list-style: none;
+}
+.social-media-list a {
+  display: block;
+  width: 37px;
+  height: 40px;
+  background-size: 120px 25px;
+  background-image: url('../img/social.png');
+  background-repeat: no-repeat;
+}
+.social-media-list .facebook {
+    background-position: -27px 8px;
+}
+.social-media-list .twitter {
+    background-position: 7px 8px;
+}
+.social-media-list .linkedin {
+    background-position: -90px 8px;
+}
+.social-media-list .g-plus {
+    background-position: -58px 8px;
+}
+.copy-rights {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 250px;
+  bottom: -100px;
+  margin: 60px auto;
+  color: #F8F9F9;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 15px;
+}

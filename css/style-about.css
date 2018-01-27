@@ -139,7 +139,7 @@ padding-left: 1px;
 }
 .one:before, .second:before,
 .three:before {
-  color: white;
+  color: #FDFEFE;
   text-align: center;
   width: 20px;
   height: 20px;

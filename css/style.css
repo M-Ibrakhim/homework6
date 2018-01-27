@@ -1,5 +1,5 @@
 body {
-  background-image: url('../img/body-bg.png');
+  background-image: url('../img/page-bg.jpg');
   background-repeat: no-repeat;
 }
 .dropdown-menu {
@@ -101,10 +101,10 @@ body {
   margin-bottom: 30px;
 }
 .waterfall {
-  background-image: url('../img/waterfall.png');
+  background-image: url('../img/waterfall.jpg');
 }
 .china {
-  background-image: url('../img/china.png');
+  background-image: url('../img/house.jpg');
 }
 .china:hover:before {
   display: inline-block;
@@ -116,25 +116,25 @@ body {
   transform: scale(1.3);
 }
 .hotel {
-  background-image: url('../img/hotel.png');
+  background-image: url('../img/hotel.jpg');
 }
 .ruins {
-  background-image: url('../img/ruins.png');
+  background-image: url('../img/ruins.jpg');
 }
 .island {
-  background-image: url('../img/island.png');
+  background-image: url('../img/island.jpg');
 }
 .ice {
-  background-image: url('../img/ice.png');
+  background-image: url('../img/ice.jpg');
 }
 .red {
-  background-image: url('../img/red.png');
+  background-image: url('../img/red.jpg');
 }
 .paris {
-  background-image: url('../img/paris.png');
+  background-image: url('../img/paris.jpg');
 }
 .mountins {
-  background-image: url('../img/mountins.png');
+  background-image: url('../img/mountins.jpg');
 }
 .bottom-circle {
   position: fixed;
@@ -210,7 +210,7 @@ font-size: 15px;
   width: 37px;
   height: 40px;
   background-size: 120px 25px;
-  background-image: url('../img/social.png');
+  background-image: url('../img/social.jpg');
   background-repeat: no-repeat;
 }
 .social-media-list .facebook {

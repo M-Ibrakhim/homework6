@@ -1,5 +1,5 @@
 body {
-  background-image: url('../img/body-bg.png');
+  background-image: url('../img/page-bg.jpg');
   background-repeat: no-repeat;
 }
 .dropdown-menu {
@@ -93,11 +93,13 @@ body {
   margin: 10px;
 }
 h4 {
+  margin: 8px 0px;
   font-size: 14px;
   font-family: 'Hind', sans-serif;
-  color: #34495E;
+  color: #1F618D;
 }
 h2 {
+  margin: 8px 0px;
   font-size: 16px;
   font-family: 'Hind', sans-serif;
   letter-spacing: 1px;
@@ -111,9 +113,7 @@ p {
   line-height: 140%;
 }
 .img {
-  padding-top: 8px;
-  padding-right: 18px;
-  padding-bottom: 3px;
+  padding: 8px 18px 3px 0px;
   float: left;
 }
 .side {
@@ -129,35 +129,41 @@ p {
 ul {
 padding-left: 1px;
 }
-.one, .second, .three{
+
+.one, .second, .three {
+  display: inline-block;
   padding-left: 20px;
+  margin-top: 10px;
   font-size: 15px;
   color: #34495E;
-  display: inline-block;
 }
 .one:before, .second:before,
 .three:before {
-  content: '1';
   color: white;
   text-align: center;
   width: 20px;
   height: 20px;
   padding: 5px;
   border-radius: 50%;
+  background: #5DADE2;
+}
+.one:before {
+  content: '1';
   position: absolute;
   left: -20px;
-  top: 40px;
-  background: #5DADE2;
+  top: 35px;
 }
 .second:before {
   content: '2';
   position: absolute;
-  top: 130px;
+  top: 125px;
+  left: -20px;
 }
 .three:before {
   content: '3';
   position: absolute;
-  top: 230px;
+  top: 225px;
+  left: -20px;
 }
 .p1, .p2, .p3 {
   padding-top: 4px;
@@ -167,17 +173,12 @@ padding-left: 1px;
   color: #424949;
   font-size: 13px;
 }
-.p3 {
-  padding-top: 4px;
-  padding-left: 20px;
-}
 .break {
   border-radius: 1px;
   border-bottom-style: solid;
   border-bottom-width: thin;
   border-bottom-color: #D6E1E5;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 0px 10px;
 }
 .second-column {
   display: inline-block;
@@ -315,7 +316,7 @@ div.speaker {
   width: 37px;
   height: 40px;
   background-size: 120px 25px;
-  background-image: url('../img/social.png');
+  background-image: url('../img/social.jpg');
   background-repeat: no-repeat;
 }
 .social-media-list .facebook {
